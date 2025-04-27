@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cart | MyStore</title>
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MyStore</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html" class="active">Cart</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-section">
+    <section class="cart-section">
+      <h2 class="section-title">Shopping Cart</h2>
+      <div id="cart-container" class="cart-items">
+      </div>
+      <div class="cart-summary">
+        <p id="total-price">Total: $0.00</p>
+        <button id="checkout-btn" class="btn-primary">Proceed to Checkout</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 MyStore. All rights reserved.</p>
+  </footer>
+
+  <script src="Js/cart.js"></script>
+</body>
+</html>

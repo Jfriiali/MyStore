@@ -1,4 +1,4 @@
-/* ریست ساده */
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ header h1, footer p {
   margin: 0;
 }
 
-/* دکمه‌ها */
+/* دکمه‌های سایتم */
 .btn-primary {
   background-color: #0d6efd;
   color: #fff;
@@ -41,7 +41,7 @@ header h1, footer p {
   background-color: #084298;
 }
 
-/* استایل صفحه محصولات */
+/* استایل products */
 #products-container, #cart-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -96,7 +96,7 @@ header h1, footer p {
   background-color: #bb2d3b;
 }
 
-/* سبد خرید */
+/* cart */
 #total-price {
   text-align: right;
   font-size: 1.5rem;
@@ -105,7 +105,6 @@ header h1, footer p {
   color: #198754;
 }
 
-/* فرم پرداخت */
 form {
   background-color: #fff;
   max-width: 500px;
@@ -138,7 +137,7 @@ h2 {
   color: #0d6efd;
 }
 
-/* برای بخش پیام خالی بودن سبد خرید */
+/*  خالی بودن سبد خرید */
 .empty-message {
   text-align: center;
   font-size: 1.2rem;
